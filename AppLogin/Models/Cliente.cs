@@ -5,7 +5,7 @@ namespace AppLogin.Models
     public class Cliente
     {
         [Display(Name = "Código", Description = "Código")]
-        public int Int { get; set; }
+        public int Id { get; set; }
 
         [Display(Name = "Nome completo", Description = "Nome e Sobrenome")]
         [Required(ErrorMessage = "O nome completo é obrigatório.")]
